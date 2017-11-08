@@ -1,5 +1,10 @@
 # studiert-sonstwer-noch
 
+[![bitHound Overall Score](https://www.bithound.io/github/johannwagner/studierteriknoch/badges/score.svg)](https://www.bithound.io/github/johannwagner/studierteriknoch)
+[![bitHound Dependencies](https://www.bithound.io/github/johannwagner/studierteriknoch/badges/dependencies.svg)](https://www.bithound.io/github/johannwagner/studierteriknoch/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/johannwagner/studierteriknoch/badges/devDependencies.svg)](https://www.bithound.io/github/johannwagner/studierteriknoch/master/dependencies/npm)
+[![bitHound Code](https://www.bithound.io/github/johannwagner/studierteriknoch/badges/code.svg)](https://www.bithound.io/github/johannwagner/studierteriknoch)
+
 > This application provides a clock showing how long a given person is already studying.
 
 ## Build Setup
