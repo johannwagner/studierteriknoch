@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <div class="counter" id="foo">
+    <div class="counter">
       Schon {{ counter }}.
     </div>
 
