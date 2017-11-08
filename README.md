@@ -4,6 +4,7 @@
 [![bitHound Dependencies](https://www.bithound.io/github/johannwagner/studierteriknoch/badges/dependencies.svg)](https://www.bithound.io/github/johannwagner/studierteriknoch/master/dependencies/npm)
 [![bitHound Dev Dependencies](https://www.bithound.io/github/johannwagner/studierteriknoch/badges/devDependencies.svg)](https://www.bithound.io/github/johannwagner/studierteriknoch/master/dependencies/npm)
 [![bitHound Code](https://www.bithound.io/github/johannwagner/studierteriknoch/badges/code.svg)](https://www.bithound.io/github/johannwagner/studierteriknoch)
+![Hipsterized](https://img.shields.io/badge/hipsterized-complete-blue.svg)
 
 > This application provides a clock showing how long a given person is already studying.
 
