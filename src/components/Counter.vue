@@ -18,11 +18,11 @@
           class="emoji"
           draggable="false"
           src="https://twemoji.maxcdn.com/72x72/231b.png"/>
-      </div>
-    </div>
 
-    <div class="counter">
-      Schon {{ counter }}.
+        <div class="counter">
+          Schon {{ counter }}.
+        </div>
+      </div>
     </div>
 
     <div class="presents">
@@ -81,12 +81,7 @@
     font-size: 5em;
 
     > * {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
+      text-align: center;
     }
 
     .false {
@@ -98,14 +93,9 @@
     }
   }
 
-  img {
-    padding-bottom: .25em;
-    padding-left: .25em;
-  }
-
   .counter {
     text-align: center;
-    font-size: 3em;
+    font-size: 0.5em;
     color: #607D8B;
   }
 

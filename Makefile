@@ -50,7 +50,7 @@ run-self-signed: self-signed ## Run container on port 80 and 443 with self-signe
 	docker run -i -t --rm -p=80:80 -p=443:443 -v $(PWD)/cert/test.crt:/fullchain.pem -v $(PWD)/cert/test.priv:/privkey.pem --name="$(APP_NAME)" $(APP_NAME)
 
 
-up: build run ## Run container on port configured in `config.env` (Alias to run)
+up: build run ## Build and run container on port 80 and 443
 
 stop: ## Stop and remove a running container
 	docker stop $(APP_NAME); docker rm $(APP_NAME)
