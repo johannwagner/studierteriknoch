@@ -30,7 +30,7 @@ build-nc: ## Build the container without caching
 	docker build --no-cache -t $(APP_NAME) .
 
 run: ## Run container on port 80 and 443
-	docker run -i -t --rm -p=80:80 -p=443:443 -v "$(SSL_CRT)":/fullchain.pem -v "$(SLL_PRIV)":/privkey.pem --name="$(APP_NAME)" $(APP_NAME)
+	docker run -i -t --rm -p=80:80 -p=443:443 -v "$(SSL_CRT)":/fullchain.pem -v "$(SSL_PRIV)":/privkey.pem --name="$(APP_NAME)" $(APP_NAME)
 
 cert:
 	mkdir cert
